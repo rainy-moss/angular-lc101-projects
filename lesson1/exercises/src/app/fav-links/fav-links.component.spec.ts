@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PageTitleComponent } from './page-title.component';
+import { FavLinksComponent } from './fav-links.component';
 
-describe('PageTitleComponent', () => {
-  let component: PageTitleComponent;
-  let fixture: ComponentFixture<PageTitleComponent>;
+describe('FavLinksComponent', () => {
+  let component: FavLinksComponent;
+  let fixture: ComponentFixture<FavLinksComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PageTitleComponent ]
+      declarations: [ FavLinksComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PageTitleComponent);
+    fixture = TestBed.createComponent(FavLinksComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
